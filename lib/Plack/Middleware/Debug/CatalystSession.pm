@@ -17,11 +17,11 @@ Plack::Middleware::Debug::CatalystSession - Debug panel to inspect the Catalyst 
 
 =head1 VERSION
 
-Version 0.01
+Version 0.01001
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.01001';
 
 install_modifier 'Catalyst', 'before', 'finalize' => sub {
     my $c = shift;
@@ -107,6 +107,15 @@ L<http://search.cpan.org/dist/Plack-Middleware-Debug-CatalystSession/>
 
 =head1 ACKNOWLEDGEMENTS
 
+For L<Plack::Middleware::Debug::CatalystStash> from which this is derived:
+
+Mark Ellis E<lt>markellis@cpan.orgE<gt>
+
+=head1 SEE ALSO
+
+L<Plack::Middleware::Debug::CatalystStash>
+
+L<Plack::Middleware::Debug>
 
 =head1 LICENSE AND COPYRIGHT
 

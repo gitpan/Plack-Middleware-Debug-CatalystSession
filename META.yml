@@ -27,4 +27,4 @@ requires:
   HTML::Entities: 0
   Plack::Middleware::Debug: 0
   perl: 5.008
-version: 0.01
+version: 0.01001
